@@ -1,0 +1,46 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* space is desecent slector */
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* space is desecent slector */
+
+nav ul li{
+    flex:1;
+}
+
+/* > child combinator*/
+
+main > p{
+    font-size: 1.25rem;
+}
+
+/* + is adjacent combinator */
+
+h2 + p{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+/*  ~  is sibilling combinator */
+.stars span:hover ~ span{
+    opacity: .5;
+}
+
+.stars span{
+    cursor: pointer;
+}
+
+
+
